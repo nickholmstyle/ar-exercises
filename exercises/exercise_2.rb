@@ -5,3 +5,11 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
+
+@store1 = Store.first
+@store2 = Store.second
+
+@store1.name = "Leslieville"
+
+puts @store1.name
+puts @store2.name
